@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/nathan/Projects/bsh_java_app"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="21.0.4+7-Ubuntu-1ubuntu224.04"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>

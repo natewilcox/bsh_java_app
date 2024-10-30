@@ -13,6 +13,10 @@ public class Car {
         this.make = make;
     }
 
+    public String getMake() {
+        return this.make;
+    }
+
     public void setModelYear(int modelYear) {
         this.modelYear = modelYear;
     }

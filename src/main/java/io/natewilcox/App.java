@@ -35,11 +35,8 @@ public class App {
                 Person p = new Person("Nathan", c);
 
                 // Modify the car's make and model year through the script
-                //car.setMake("Honda");
-                //car.setModelYear(2022);
-
-                // Access person and change the associated car's make
-                //((Person)person).setCar(car);
+                car.setMake("Honda");
+                car.setModelYear(2022);
                 
                 // Print the updated state
                 print("Updated state: " + person);
@@ -47,6 +44,8 @@ public class App {
 
             // Evaluate the script
             interpreter.eval(script);
+
+            System.out.print(car.getMake());
 
         } catch (Exception e) {
             e.printStackTrace();
